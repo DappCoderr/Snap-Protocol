@@ -5,8 +5,10 @@ import Ballerz from "../images/Ballerzs.png"
 import Flunks from "../images/Flunks.jpeg"
 import Hood from "../images/Hoodnft.png" 
 import FlowAvatar from "../images/Flowavatar.svg"
+import FlowAvatar1 from "../images/Flowavatar1.svg"
 import Goober from "../images/goober.jpeg"
 import MetaPanda from "../images/1.png"
+import Zeeds from "../images/zeeds.png"
 
 const Header = () => {
   /* This example requires Tailwind CSS v2.0+ */
@@ -41,11 +43,19 @@ const Header = () => {
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
+                            src={FlowAvatar1}
+                            alt=""
+                            className="w-full h-full object-center object-cover"
+                          />
+                        </div>
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <img
                             src={Flunks}
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
                         </div>
+                        
                       </div>
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
@@ -57,7 +67,7 @@ const Header = () => {
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
-                            src={MetaPanda}
+                            src={Goober}
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
@@ -80,7 +90,14 @@ const Header = () => {
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <img
-                            src={Goober}
+                            src={Zeeds}
+                            alt=""
+                            className="w-full h-full object-center object-cover"
+                          />
+                        </div>
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <img
+                            src={MetaPanda}
                             alt=""
                             className="w-full h-full object-center object-cover"
                           />
